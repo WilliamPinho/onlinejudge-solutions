@@ -5,6 +5,7 @@ using namespace std;
 int main() {
     int t = 1;
     string s;
+    ios::sync_with_stdio(false);
     cin >> s;
     while(s != "#") {
         cout << "Case " << t << ": ";

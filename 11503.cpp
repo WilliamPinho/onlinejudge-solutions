@@ -55,6 +55,7 @@ public:
 
 int main() {
   int t, n;
+  ios::sync_with_stdio(false);
   cin >> t;
   while(t>0) {
     cin >> n;
